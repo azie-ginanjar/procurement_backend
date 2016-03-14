@@ -1,0 +1,16 @@
+arrow
+blinker
+celery
+colander>=1.0b1
+dictalchemy
+flask-appconfig
+flask-migrate
+flask-script
+flask-sqlalchemy
+mimerender
+psycopg2
+raven
+requests
+six
+xmltodict
+flask-cors

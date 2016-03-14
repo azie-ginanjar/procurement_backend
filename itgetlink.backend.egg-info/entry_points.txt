@@ -1,0 +1,3 @@
+[console_scripts]
+itGetlink-procurement = itgetlink.backend.factory:run_cli
+

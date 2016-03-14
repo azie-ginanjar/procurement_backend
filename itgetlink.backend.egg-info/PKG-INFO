@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: itgetlink.backend
+Version: 0.2.0.dev0
+Summary: Handles Authentication
+Home-page: UNKNOWN
+Author: IT-Getlink
+Author-email: UNKNOWN
+License: Proprietary
+Description: itgetlink.backend
+        ~~~~~~~~~~~~~~~~~~~~~
+        
+        A set of micro services that handle incoming and outgoing messages (sms, email, etc).
+        
+        Collaboration
+        =============
+        
+        We're embracing simple workflow as following:
+        
+        * ``master`` branch keeps production-ready deploy-able code.
+        * ``develop`` branch keeps in-progress code, e.g. features. Also, we use topic branch for feature.
+        * If ``master`` is buggy, checkout from it into a topic branch.
+          Merge to ``master`` (and likely ``develop`` as well) after it has been done.
+        * If in doubt, always use topic branch and ask for design and/or implementation review from peers.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3.4
